@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.scroll-container {
+    border: 1px solid #ccc;
+    position: relative;
+  }
+
+  /* Styling for the scroll content */
+  .scroll-content {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #333;
+    text-align: justify;
+  }
+
+  /* Custom scrollbar styles */
+  .scroll-container::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  .scroll-container::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 10px;
+  }
+
+  .scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #333;
+  }
